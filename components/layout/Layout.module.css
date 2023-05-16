@@ -11,8 +11,8 @@
 .header h2 {
   font-size: 2em;
   border-bottom: 1px solid black;
-  width: fit-content;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .footer {
