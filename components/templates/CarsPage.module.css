@@ -5,3 +5,15 @@
   width: 1100px;
   margin: auto;
 }
+
+@media (max-width: 1100px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 420px;
+  }
+}
