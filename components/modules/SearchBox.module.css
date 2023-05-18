@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 400px;
+  margin: 20px auto;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 7px;
+  padding: 5px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container span {
+  outline: none;
+  border: 2px solid rgb(171, 255, 255);
+  border-radius: 5px;
+  padding: 3px 5px;
+  margin: 3px 7px 3px 0;
+}
+.container input {
+  border: none;
+  outline: none;
+}
+.container button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: rgb(171, 255, 255);
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+}
